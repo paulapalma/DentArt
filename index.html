@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/footer.css">
+</head>
+
+<body>
+
+  <header>
+    <!--Barra de Navegacion-->
+    <nav class="navbar navbar-expand-lg navbar-light" >
+      <a class="navbar-brand" href="../index.php"><img src="./assets/images/DentArt.png" height="100" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="../index.php">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./vistas/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./vistas/contacto.html">Contacto</a>
+          </li>
+          <!--<li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+          <!---- <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>-->
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <!--<input class="form-control mr-sm-2" type="" placeholder="" aria-label="">-->
+          <!--<button type="submit" class="btn btn-lg btn-info">Iniciar Sesión</button>-->
+          <a href="./html/login.php" class="btn btn-lg btn-info" role="button" aria-pressed="true">Iniciar Sesión</a>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <!---Carousel-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="./assets/images/D.jpg" alt="D">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Sonrisas Felices</h5>
+          <!---- <p>Hacemos que cada visita a la clínica sea una razón para sonreír</p>-->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/images/E.jpg" alt="E">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Consultorio dental moderno y equipado</h5>
+          <!--<p>Donde la tecnología y la experiencia se unen para cuidar de tu sonrisa</p>-->
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="./assets/images/N.jpg" alt="N">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Tratamientos Especializados</h5>
+          <!--<p>Ofrecemos soluciones personalizadas para tus necesidades dentales</p>-->
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!--Principal-->
+  <main>
+     <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h2 class="display-4">Nuestros procedimientos</h2>
+        <p class="lead">Le brindamos la atención especializada más profesional y eficiente para ayudarle a recobrar y
+          mantener una óptima salud dental, con la asistencia personalizada de un especialista. Ofrecemos una amplia
+          gama de servicios que nos capacita para proporcionarte la atención más completa y resolver cualquier problema
+          en diversas condiciones.</p>
+        <!--Nuestros procedimientos-->
+        <section class="row-proce" id="secProcedimientos">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./assets/images/ID.jpg" class="card-img-top" alt="Implantes dentales">
+                <div class="card-body">
+                  <h3 class="card-title">Implantes dentales</h3>
+                  <p class="card-text">Los implantes son dispositivos metálicos insertados en los huesos maxilares para
+                    permitir la colocación de coronas o puentes fijos y reemplazar dientes perdidos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./assets/images/OC.jpg" class="card-img-top" alt="Odontología Cosmética">
+                <div class="card-body">
+                  <h3 class="card-title">Odontología Cosmética</h3>
+                  <p class="card-text">La odontología estética busca mejorar la apariencia de la boca, manteniendo la
+                    belleza natural de los dientes y logrando una sonrisa más atractiva a través de tratamientos
+                    simples, indoloros y rápidos.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./assets/images/ED.JPG" class="card-img-top" alt="Endodoncias">
+                <div class="card-body">
+                  <h3 class="card-title">Endodoncias</h3>
+                  <p class="card-text">La endodoncia es un tratamiento que busca salvar dientes dañados al eliminar la
+                    pulpa dental, rellenar y sellar la cavidad resultante con material biocompatible.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="./assets/images/BD.jpg" class="card-img-top" alt="Blanqueamiento">
+                <div class="card-body">
+                  <h3 class="card-title">Blanqueamiento</h3>
+                  <p class="card-text">
+                    El blanqueamiento dental busca eliminar manchas y dar a los dientes
+                    un tono más blanco y brillante, siendo muy solicitado debido a la creciente importancia de la
+                    estética dental.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  
+  <!--footer-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <footer id="dk-footer" class="dk-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-4">
+          <div class="dk-footer-box-info">
+            <a href="index.html" class="footer-logo">
+              <img src="./assets/images/DentArt.png" alt="footer_logo" class="img-fluid">
+            </a>
+            <p class="footer-info-text">
+              Ofrecemos tratamientos de alta calidad con la mejor atención y servicio. Tu sonrisa en buenas manos.
+            </p>
+            <div class="footer-social-link">
+              <h3>Síguenos en redes</h3>
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <!----<li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>-->
+                <li>
+                  <a href="#">
+                    <i class="fa fa-instagram"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- End Social link -->
+          </div>
+          <!-- End Footer info -->
+          <div class="footer-awarad">
+            <img src="images/icon/best.png" alt="">
+            <p>Best Design Company 2019</p>
+          </div>
+        </div>
+        <!-- End Col -->
+        <div class="col-md-12 col-lg-8">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-us">
+                <div class="contact-icon">
+                  <i class="fa fa-map-o" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3>Celaya, Gto, C.P. 38000</h3>
+                  <p>Calle 5 de Mayo #234, Centro</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+            <div class="col-md-6">
+              <div class="contact-us contact-us-last">
+                <div class="contact-icon">
+                  <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                </div>
+                <!-- End contact Icon -->
+                <div class="contact-info">
+                  <h3>461 380 26 85</h3>
+                  <p>Llámanos y agenda tu cita</p>
+                </div>
+                <!-- End Contact Info -->
+              </div>
+              <!-- End Contact Us -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Contact Row -->
+          <div class="row">
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget footer-left-widget">
+                <div class="section-heading">
+                  <h3>Horarios</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <table class="table text-left text-white">
+                  <tbody class="font-weight-normal">
+                    <tr>
+                      <td>Lun - Mar - Mier:</td>
+                      <td>9am - 6pm</td>
+                    </tr>
+                    <tr>
+                      <td>Juev - Vier:</td>
+                      <td>10am - 5pm</td>
+                    </tr>
+                    <tr>
+                      <td>Sab - Dom:</td>
+                      <td>8am - 1pm</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- End Footer Widget -->
+            </div>
+            <!-- End col -->
+            <div class="col-md-12 col-lg-6">
+              <div class="footer-widget">
+                <div class="section-heading">
+                  <h3>Mándanos correo</h3>
+                  <span class="animate-border border-black"></span>
+                </div>
+                <p><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+                  Agenda tu cita y conoce nuestras ofertas y promociones.</p>
+                <form action="#">
+                  <div class="form-row">
+                    <div class="col dk-footer-form">
+                      <input type="email" class="form-control" placeholder="Email Address">
+                      <button type="submit">
+                        <i class="fa fa-send"></i>
+                      </button>
+                    </div>
+                  </div>
+                </form>
+                <!-- End form -->
+              </div>
+              <!-- End footer widget -->
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+        <!-- End Col -->
+      </div>
+      <!-- End Widget Row -->
+    </div>
+    <!-- End Contact Container -->
+
+<br>
+    <div class="copyright">
+      <div class="container copyright">
+        <div class="row">
+          <div class="col-md-6">
+            <span>Copyright © 2023, Afortunados en cuidar tu sonrisa</span>
+          </div>
+          <!-- End Col -->
+          <div class="col-md-6">
+            <div class="copyright-menu">
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="#">Terms</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+              </ul>
+              <br>    
+            </div>
+          </div>
+          
+          <!-- End col -->
+        </div>
+        <!-- End Row -->
+      </div>
+      <!-- End Copyright Container -->
+    </div>
+    <!-- End Copyright -->
+    <!-- Back to top -->
+    <div id="back-to-top" class="back-to-top">
+      <button class="btn btn-dark" title="Back to Top" style="display: block;">
+        <i class="fa fa-angle-up"></i>
+      </button>
+    </div>
+    <!-- End Back to top -->
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
